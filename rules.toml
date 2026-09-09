@@ -1,0 +1,71 @@
+# ================================
+# Word Formatter - Rules Config
+# ================================
+# Edit values to match your style guide.
+# Leave "" to skip a rule and preserve original formatting.
+
+
+[paragraph]
+font = "Calibri"
+base_size = 11
+all_bold = false        # true = force all bold
+no_bold = false         # true = strip all bold
+all_italic = false      # true = force all italic
+no_italic = false       # true = strip all italic
+all_underline = false   # true = force all underline
+no_underline = false    # true = strip all underline
+
+
+[heading.1]
+font = "Calibri"
+size = 12
+bold = true
+color = "#000000"              # hex code e.g. "#000000", or "" to skip
+alignment = "left"   # "left", "center", or "right"
+text_case = "title"    # "upper" or "title"
+
+
+[heading.2]
+font = "Calibri"
+size = 11
+bold = true
+color = "#000000"              # hex code e.g. "#003366", or "" to skip
+alignment = "left"   # "left", "center", or "right"
+text_case = "title"    # "upper" or "title"
+
+
+[table]
+autofit = "fixed"                     # "contents", "window", or "fixed"
+alternate = "rows"                 # "columns" or "rows"
+header_row_color = "#145f82"   # hex e.g. "#003366"
+primary_color = "#c1e3f5"      # hex e.g. "#003366"
+secondary_color = "#ffffff"    # hex e.g. "#F2F2F2"
+alignment = "center"                   # "left", "center", or "right"
+
+
+[header]
+logo = ""               # file path e.g. "C:/Company/logo.png", or "" to skip
+text = ""               # e.g. "Acme Bank", or "" to skip
+text_alignment = "center"     # "left", "center", or "right"
+font = ""
+font_size = ""
+number_headings = true   # true = auto-number headings (1., 1.1., 2., etc.)
+
+[footer]
+page_numbers = false    # true = add page numbers
+text = ""               # e.g. "Confidential", or "" to skip
+text_alignment = "right"     # "left", "center", or "right"
+font = "Calibri"
+font_size = "24"
+
+
+[margins] # Inches
+top = 1.25
+bottom = 1.0
+left = 1.0
+right = 1.0
+header_distance = 0
+
+[memo_header] # Inches
+tab_stop = 0.5
+bold = true
